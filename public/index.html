@@ -1,43 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+    <meta name="keywords" content="Spotify, music, online, listen, streaming, play, digital, album, artist, playlist">
+    <link rel="icon" type="image/png" href="https://wwwmarketing.scdn.co/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://wwwmarketing.scdn.co/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://wwwmarketing.scdn.co/img/favicon-96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="https://wwwmarketing.scdn.co/img/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://wwwmarketing.scdn.co/img/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://wwwmarketing.scdn.co/img/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://wwwmarketing.scdn.co/img/apple-touch-icon-167x167.png">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="O Spotify é um serviço de música digital que dá acesso a milhões de músicas."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <style>
+      body,
+      html {
+        scroll-behavior:smooth;padding:0;margin:0
+      }
+      html {font-family:spotify-circular,Helvetica,Arial,sans-serif}
+      html:lang(ar) *,
+      html:lang(ur) * {font-family:circular-spotify-arabic,spotify-circular,Helvetica,Arial,sans-serif}html:lang(he) * {font-family:circular-spotify-hebrew,spotify-circular,Helvetica,Arial,sans-serif}html:lang(ru) * {font-family:circular-spotify-cyrillic,spotify-circular,Helvetica,Arial,sans-serif}@font-face{font-family:spotify-circular;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.otf) format('opentype');font-weight:400;font-style:normal;font-display:fallback}@font-face{font-family:spotify-circular;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.otf) format('opentype');font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:spotify-circular;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.otf) format('opentype');font-weight:900;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-arabic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Book.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Book.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Book.otf) format('opentype');font-weight:400;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-arabic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Bold.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Bold.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Bold.otf) format('opentype');font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-arabic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Black.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Black.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Arabic-Black.otf) format('opentype');font-weight:900;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-hebrew;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Book.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Book.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Book.otf) format('opentype');font-weight:400;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-hebrew;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Bold.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Bold.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Bold.otf) format('opentype');font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-hebrew;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Black.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Black.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Black.otf) format('opentype');font-weight:900;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-cyrillic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Book.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Hebrew-Book.woff) format('woff'),url(https://open.scdn.co/fonts/CircularSpUIHbrOnly-Book.otf) format('opentype');font-weight:400;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-cyrillic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Bold.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Bold.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Bold.otf) format('opentype');font-weight:700;font-style:normal;font-display:fallback}@font-face{font-family:circular-spotify-cyrillic;src:url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Black.woff2) format('woff2'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Black.woff) format('woff'),url(https://encore.scdn.co/1.2.3/CircularSpotify-UI-Cyrillic-Black.otf) format('opentype');font-weight:900;font-style:normal;font-display:fallback}
+    </style>
+  
+    <title>Ouça grátis no celular - Spotify - Spotify (BR)</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
