@@ -1,4 +1,5 @@
 import Modal from "./Modal";
+import Nav from "./Nav";
 import './Header.css';
 import { ReactComponent as Logo } from 'assets/img/logo.svg';
 import { useState } from "react";
@@ -27,7 +28,7 @@ const Header = () => {
                     </button>
                 </div>
                 {isActive && <div className="overlay"></div>}
-                {isActive && <nav className="header__nav-mobile"></nav>}
+                <Nav isActive={isActive} logo={<Logo className="logo__image--nav-mobile" />} />
             </header>
         </>
     );

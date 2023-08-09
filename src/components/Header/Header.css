@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.3rem 1.5rem;
+    margin: 0 auto;
     max-width: 75rem;
 }
 
@@ -16,6 +17,10 @@
 }
 
 .logo__image {
+    fill: var(--white);
+}
+
+.logo__image--nav-mobile {
     fill: var(--white);
 }
 
@@ -29,7 +34,7 @@
     display: block;
     background-color: var(--white);
     border-radius: 0.1rem;
-    transform-origin: 2.1rem;
+    transform-origin: 2.05rem;
 }
 
 .menu__bar:not(:first-child) {
@@ -63,14 +68,4 @@
     left: 0;
     top: 0;
     background-color: var(--overlay);
-}
-
-.header__nav-mobile {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: clamp(44.7rem, 44.7rem, 100vw);
-    padding: 3.8rem;
-    background-color: var(--black);
 }
