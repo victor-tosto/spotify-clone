@@ -1,0 +1,22 @@
+.header__modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: var(--blue);
+}
+
+.modal__link {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.modal__button {
+    cursor: pointer;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: var(--white);
+}
