@@ -1,10 +1,12 @@
 import Modal from "./Modal";
-import Nav from "./Nav";
+import NavMobile from "./NavMobile";
 import './Header.css';
 import { ReactComponent as Logo } from 'assets/img/logo.svg';
 import { useState } from "react";
 
 const Header = () => {
+
+    const isMobile = window.innerWidth <= 768;
 
     const [isActive, setActive] = useState(false);
 
@@ -21,14 +23,15 @@ const Header = () => {
                     <a href="/" className="container__logo">
                         <Logo className="logo__image" />
                     </a>
+                    {isMobile && 
                     <button onClick={handleToggle} className={isActive ? "container__menu active" : "container__menu"} aria-expanded={isActive ? "true" : "false"}>
                         <span className="menu__bar"></span>
                         <span className="menu__bar"></span>
                         <span className="menu__bar"></span>
-                    </button>
+                    </button>}
                 </div>
                 {isActive && <div className="overlay"></div>}
-                <Nav isActive={isActive} logo={<Logo className="logo__image--nav-mobile" />} />
+                {isMobile && <NavMobile isActive={isActive} logo={<Logo className="logo__image--nav-mobile" />} />}
             </header>
         </>
     );

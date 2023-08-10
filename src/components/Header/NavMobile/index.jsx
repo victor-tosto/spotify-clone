@@ -1,6 +1,6 @@
-import './Nav.css';
+import './NavMobile.css';
 
-const Nav = (props) => {
+const NavMobile = (props) => {
     return (
         <nav className={props.isActive ? "header__nav-mobile active" : "header__nav-mobile"}>
             <ul className="nav-mobile__list">
@@ -29,4 +29,4 @@ const Nav = (props) => {
     );
 }
 
-export default Nav;
+export default NavMobile;
