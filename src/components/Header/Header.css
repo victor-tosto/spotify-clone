@@ -1,5 +1,6 @@
 .header {
     background-color: var(--black);
+    height: 5.4rem;
 }
 
 .header__container {

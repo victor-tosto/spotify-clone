@@ -39,7 +39,7 @@
     margin: 1.8rem 0 4.2rem;
     transform: translateX(500%);
     opacity: 0;
-    transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
 }
 
 .header__nav-mobile.active .list__item--separator {
@@ -58,15 +58,15 @@
 }
 
 .list__item:nth-child(1) .item__link {
-    transition: .2s ease-out;
+    transition: .3s ease-out;
 }
 
 .list__item:nth-child(2) .item__link {
-    transition: .24s ease-out;
+    transition: .34s ease-out;
 }
 
 .list__item:nth-child(3) .item__link {
-    transition: .3s ease-out;
+    transition: .4s ease-out;
 }
 
 .header__nav-mobile.active .item__link {
@@ -84,11 +84,11 @@
 }
 
 .list__item:nth-child(5) .item__link--login {
-    transition: .34s ease-out;
+    transition: .54s ease-out;
 }
 
 .list__item:nth-child(6) .item__link--login {
-    transition: .38s ease-out;
+    transition: .58s ease-out;
 }
 
 .header__nav-mobile.active .item__link--login {
@@ -100,9 +100,9 @@
     display: inline-block;
     width: 8.9rem;
     height: 3.5rem;
-    transform: translateX(100%);
+    transform: translateX(200%);
     opacity: 0;
-    transition: .44s ease-out;
+    transition: .8s ease;
 }
 
 .header__nav-mobile.active .nav-mobile__logo {

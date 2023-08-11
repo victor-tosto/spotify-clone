@@ -1,0 +1,31 @@
+[
+    {
+        "image": "/assets/img/play.png",
+        "alt": "Músicas favoritas",
+        "title": "Ouça suas favoritas.",
+        "info": "Ouça suas músicas prediletas e descubra novas músicas e podcasts.",
+        "id": 1
+    },
+    {
+        "image": "/assets/img/playlists.png",
+        "alt": "Playlists",
+        "title": "Playlists mais fáceis de usar.",
+        "info": "Vamos te ajudar a criar playlists. Ou você pode curtir playlists criadas por especialistas em música.",
+        "id": 2
+    },
+    {
+        "image": "/assets/img/heart.png",
+        "alt": "Coração",
+        "title": "Do jeitinho que você gosta.",
+        "info": "Conte pra gente o que você gosta de ouvir, e nós vamos recomendar músicas para você.",
+        "id": 3
+    },
+    {
+        "image": "/assets/img/economy.png",
+        "alt": "Economia",
+        "title": "Economize seu pacote de dados.",
+        "info": "Para consumir menos dados ao ouvir música, ative a Economia de dados em Configurações.",
+        "id": 4
+    }
+
+]
