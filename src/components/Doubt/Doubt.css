@@ -1,0 +1,16 @@
+.doubt {
+    padding: 3.5rem 1.5rem;
+}
+
+.doubt__title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: -0.015rem;
+    line-height: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.doubt__list {
+    list-style-type: none;
+}
