@@ -1,7 +1,7 @@
 import './styles/global.css';
 import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
     <Home />
   );

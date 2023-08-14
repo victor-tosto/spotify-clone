@@ -1,0 +1,46 @@
+.list__doubt {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.05);
+}
+
+.doubt__info {
+    cursor: pointer;
+    padding: 2.6rem 2.8rem;
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.doubt__info:focus , .doubt__info:hover {
+    background-color: #F0F0F0;
+}
+
+.doubt__info:focus .info__description, .doubt__info:hover .info__description {
+    text-decoration: underline;
+}
+
+.info__description {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-right: 1rem;
+    width: calc(100% - 2.4rem);
+}
+
+.doubt__arrow {
+    transform: rotate(180deg);
+    width: 2.4rem;
+    height: 2.4rem;
+    stroke-width: 1pt;
+}
+
+.doubt__info.open .doubt__arrow {
+    transform: rotate(0);
+}
+
+.doubt__paragraph {
+    padding: 1.5rem 3.2rem 3.2rem;
+}
+
+.doubt__paragraph p {
+    font-size: 1.6rem;
+    margin-bottom: 2.08rem;
+}
