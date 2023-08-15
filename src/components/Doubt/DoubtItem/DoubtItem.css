@@ -1,4 +1,4 @@
-.list__doubt {
+.list__doubt:not(:last-child) {
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.05);
 }
 
@@ -43,4 +43,12 @@
 .doubt__paragraph p {
     font-size: 1.6rem;
     margin-bottom: 2.08rem;
+}
+
+.doubt__paragraph blockquote p {
+    margin-bottom: 0;
+}
+
+.doubt__paragraph strong {
+    color: var(--green);
 }

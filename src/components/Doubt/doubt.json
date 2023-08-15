@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Como faço para criar uma playlist?",
-        "paragraph": "As playlists são uma ótima maneira de criar coleções de músicas, seja para só você ouvir ou para compartilhar.\n\n Para criar uma: \n\n 1. Clique na “Sua Biblioteca”. \n 2. Clique em **CRIAR**. \n 3. Dê um nome para a playlist. \n 4. Comece a incluir algumas músicas (enquanto recomendamos outras)."
+        "paragraph": "As playlists são uma ótima maneira de criar coleções de músicas, seja para só você ouvir ou para compartilhar.\n\n Para criar uma: \n\n >1&#8291;. Clique na “Sua Biblioteca”. \n >>2&#8291;. Clique em **CRIAR**. \n >>>3&#8291;. Dê um nome para a playlist. \n >>>>4&#8291;. Comece a incluir algumas músicas (enquanto recomendamos outras)."
     },
     {
         "id": 2,
@@ -12,7 +12,7 @@
     {
         "id": 3,
         "title": "Só é possível ouvir música em ordem aleatória?",
-        "paragraph": "As playlists com o ícone de ordem aleatória tocam dessa forma. \n\n Nas playlists que não têm esse ícone, você pode clicar em qualquer música para ouvir."
+        "paragraph": "As playlists com o ícone de ordem aleatória tocam dessa forma. \n\n >Nas playlists que não têm esse ícone, você pode clicar em qualquer música para ouvir."
     },
     {
         "id": 4,

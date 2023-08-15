@@ -45,7 +45,7 @@
 .info__content {
     font-size: 3.2rem;
     font-weight: 900;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.032rem;
     line-height: 1.2;
     color: var(--white);
 }

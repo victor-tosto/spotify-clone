@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--black);
+    padding: 5rem 0 2rem;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__logo {
+    padding: 0 1.5rem;
+}
+
+.logo__link {
+    display: inline-block;
+    width: 8.9rem;
+    height: 2.7rem;
+}
+
+.link__image {
+    fill: var(--white);
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Empresa",
+        "item1": "Sobre",
+        "item2": "Empregos",
+        "item3": "For the Record"
+    },
+    {
+        "id": 2,
+        "title": "Comunidades",
+        "item1": "Para Artistas",
+        "item2": "Desenvolvedores",
+        "item3": "Publicidade",
+        "item4": "Investidores",
+        "item5": "Fornecedores"
+    },
+    {
+        "id": 3,
+        "title": "Link Úteis",
+        "item1": "Suporte",
+        "item2": "Player da Web",
+        "item3": "Aplicativo móvel grátis"
+    }
+]
