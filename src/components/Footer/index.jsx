@@ -1,6 +1,11 @@
 import './Footer.css';
 import { ReactComponent as Logo } from 'assets/img/logo.svg';
-import footer from './footer.json';
+import links from './json/links.json';
+import bottom from './json/bottom.json';
+import FooterLinks from './FooterLinks';
+import { TfiFacebook, TfiTwitterAlt } from 'react-icons/tfi';
+import { BsInstagram } from 'react-icons/bs';
+import { ReactComponent as World } from 'assets/img/world.svg';
 
 const Footer = () => {
     return (
@@ -10,32 +15,46 @@ const Footer = () => {
                     <a href="/" className='logo__link'><Logo className='link__image' /></a>
                 </div>
                 <div className='nav__links'>
-                    {footer.map(item => {
-                        return (
-                            <dl key={item.id}>
-                                <dt>{item.title}</dt>
-                                <dd>
-                                    <a href="/">{item.item1}</a>
-                                </dd>
-                                <dd>
-                                    <a href="/">{item.item2}</a>
-                                </dd>
-                                <dd>
-                                    <a href="/">{item.item3}</a>
-                                </dd>
-                                {item.item4 && 
-                                <dd>
-                                    <a href="/">{item.item4}</a>
-                                </dd>
-                                }
-                                {item.item5 && 
-                                <dd>
-                                    <a href="/">{item.item5}</a>
-                                </dd>
-                                }
-                            </dl>
-                        );
-                    })}
+                    {links.map(item => (
+                        <FooterLinks key={item.id} item={item} />
+                    ))}
+                </div>
+                <div className='nav__social-media'>
+                    <ul className='social-media__list'>
+                        <li className='list__icon'>
+                            <a href="/" className='icon__link'>
+                                <BsInstagram size={24} fill='white' />
+                            </a>
+                        </li>
+                        <li className='list__icon'>
+                            <a href="/" className='icon__link'>
+                                <TfiTwitterAlt size={24} fill='white' />
+                            </a>
+                        </li>
+                        <li className='list__icon'>
+                            <a href="/" className='icon__link'>
+                                <TfiFacebook size={24} fill='white' />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='nav__country'>
+                    <a href="/" className='country__link'>
+                        <World />
+                        Brasil (Português)
+                    </a>            
+                </div>
+                <div className='nav__bottom-links'>
+                    <ul className='bottom-links__list'>
+                        {bottom.map(link => {
+                            return (
+                                <li key={link.id} className='list__bottom-item'>
+                                    <a href="/" className='bottom-item__link'>{link.text}</a>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                    <span className='bottom-links__copy'>© 2023 Spotify AB</span>
                 </div>
             </nav>
         </footer>

@@ -1,0 +1,21 @@
+.links__container {
+    padding: 0 1.5rem;
+}
+
+.container__title {
+    margin: 5rem 0 2.2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+.container__item {
+    padding: 0.3rem 0 1.5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--white);
+}

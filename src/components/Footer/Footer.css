@@ -21,3 +21,69 @@
 .link__image {
     fill: var(--white);
 }
+
+.nav__social-media {
+    margin: 12rem 1.5rem 1.5rem;
+}
+
+.social-media__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list__icon:not(:last-child) {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.icon__link {
+    background-color: var(--dark-gray);
+    border-radius: 50%;
+    width: 4.4rem;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__country {
+    margin: 0 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.country__link {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem 0;
+    color: var(--gray);
+}
+
+.nav__bottom-links {
+    display: flex;
+}
+
+.bottom-links__list {
+    margin: 0 4.5rem 0 0;
+    padding: 0 0 0 1.5rem;
+    list-style: none;
+}
+
+.list__bottom-item {
+    display: inline-block;
+    margin-right: 2.4rem;
+}
+
+.bottom-item__link {
+    display: flex;
+    padding: 1rem 0;
+    color: var(--gray);
+}
+
+.bottom-links__copy {
+    flex-shrink: 0;
+    margin: 0 1.5rem 0 auto;
+    padding: 1rem 0;
+    color: var(--gray);
+}
