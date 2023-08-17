@@ -1,9 +1,13 @@
 .header__modal {
+    background-color: var(--blue);
+}
+
+.modal {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
-    background-color: var(--blue);
+    margin: 0 auto;
 }
 
 .modal__link {
@@ -19,4 +23,10 @@
     line-height: 2.3rem;
     font-weight: 700;
     color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 75rem;
+    }
 }

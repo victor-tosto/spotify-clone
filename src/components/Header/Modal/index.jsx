@@ -12,8 +12,10 @@ const Modal = () => {
     return (
         open &&
         <div className='header__modal'>
-            <a href="/" className='modal__link'>Brazil (English)</a>
-            <button onClick={closeModal} className='modal__button'>✕</button>
+            <div className='modal'>
+                <a href="/" className='modal__link'>Brazil (English)</a>
+                <button onClick={closeModal} className='modal__button'>✕</button>
+            </div>
         </div> 
     );
 }
