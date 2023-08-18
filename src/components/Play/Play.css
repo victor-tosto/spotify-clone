@@ -30,3 +30,17 @@
     color: var(--black);
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+
+    .play {
+        background-position: left -1rem bottom -16rem;
+        background-repeat: no-repeat;
+    }
+
+    .play__title {
+        font-size: 6rem;
+        padding: 11.2rem 9rem 3.2rem;
+    }
+
+}

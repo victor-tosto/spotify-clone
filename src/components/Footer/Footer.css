@@ -87,3 +87,32 @@
     padding: 1rem 0;
     color: var(--gray);
 }
+
+@media screen and (min-width: 768px) {
+    
+    .footer__nav {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .nav__logo {
+        width: calc(100% / 6);
+    }
+
+    .nav__links {
+        display: flex;
+    }
+
+    .links__container {
+        flex: 1 0;
+    }
+
+    .bottom-item__link {
+        font-size: 1.2rem;
+    }
+
+    .country__link, .bottom-links__copy {
+        font-size: 1.2rem;
+    }
+
+}

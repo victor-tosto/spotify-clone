@@ -57,3 +57,15 @@
 .info__content:last-child {
     padding: 0 1.5rem 8rem;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .is-free__phone, .is-free__blur {
+        display: none;
+    }
+
+    .info__content {
+        font-size: 4rem;
+    }
+
+}

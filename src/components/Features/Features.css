@@ -40,3 +40,33 @@
     font-size: 1.6rem;
     line-height: 1.5;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .features {
+        padding: 7.5rem 1.5rem;
+        width: 75rem;
+        margin: 0 auto;
+    }
+
+    .features__title {
+        margin-bottom: 7.2rem;
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+
+    .features__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list__feature {
+        width: 50%;
+        flex-grow: 1;
+    }
+
+    .info__text {
+        width: 80%;
+    }
+
+}
