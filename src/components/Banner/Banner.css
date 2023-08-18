@@ -43,3 +43,54 @@
     }
 
 }
+
+@media screen and (min-width: 992px) {
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        height: 60rem;
+        padding: 0;
+    }
+
+    .banner__wrapper {
+        display: flex;
+        width: 117rem;
+        margin: 0 .9rem;
+    }
+
+    .banner__desktop {
+        position: relative;
+        width: 40%;
+        padding-top: 10rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .desktop__phone {
+        width: 28.6rem;
+        height: 57.3rem;
+    }
+
+    .phone__content-desktop {
+        position: absolute;
+        right: 0;
+        left: 0;
+        height: 57.5rem;
+        bottom: -13rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-desktop__image {
+        width: 26.7rem;
+        height: 44.5rem;
+    }
+
+    .banner__container {
+        padding: 18rem 1.5rem 0 0;
+        margin: 0;
+        width: 60%;
+    }
+
+}

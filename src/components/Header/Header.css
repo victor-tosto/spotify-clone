@@ -1,6 +1,5 @@
 .header {
     background-color: var(--black);
-    height: 5.4rem;
 }
 
 .header__container {
@@ -10,6 +9,7 @@
     padding: 1.3rem 1.5rem;
     margin: 0 auto;
     max-width: 75rem;
+    height: 5.4rem;
 }
 
 .container__logo {
@@ -69,4 +69,26 @@
     left: 0;
     top: 0;
     background-color: var(--overlay);
+}
+
+@media screen and (min-width: 992px) {
+
+    .header__container {
+        max-width: 97rem;
+        height: 8rem;
+    }
+
+    .container__logo {
+        width: 13.2rem;
+        height: 4rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .header__container {
+        max-width: 117rem;
+    }
+
 }

@@ -30,3 +30,19 @@
     }
 
 }
+
+@media screen and (min-width: 992px) {
+    
+    .doubt {
+        width: 97rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .doubt {
+        width: 117rem;
+    }
+
+}

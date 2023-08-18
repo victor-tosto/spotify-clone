@@ -1,0 +1,30 @@
+.nav-desktop__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-desktop__link {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 2.8rem 1.7rem;
+}
+
+.nav-desktop__separator {
+    background-color: var(--white);
+    margin: auto 1.7rem;
+    display: inline-block;
+    height: 1.6rem;
+    width: 0.1rem;
+}
+
+.nav-desktop__link--alt {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--light-gray);
+    padding: 2.8rem 1.7rem;
+}
+
+.nav-desktop__item:last-child .nav-desktop__link--alt{
+    padding-right: 0;
+}

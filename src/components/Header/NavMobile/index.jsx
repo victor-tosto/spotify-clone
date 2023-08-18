@@ -1,8 +1,8 @@
 import './NavMobile.css';
 
-const NavMobile = (props) => {
+const NavMobile = ({ logo, isActive }) => {
     return (
-        <nav className={props.isActive ? "header__nav-mobile active" : "header__nav-mobile"}>
+        <nav className={isActive ? "header__nav-mobile active" : "header__nav-mobile"}>
             <ul className="nav-mobile__list">
                 <li className="list__item">
                     <a href="/" className="item__link">Premium</a>
@@ -23,7 +23,7 @@ const NavMobile = (props) => {
                 </li>
             </ul>
             <a href="/" className='nav-mobile__logo'>
-                {props.logo}
+                {logo}
             </a>
         </nav>
     );

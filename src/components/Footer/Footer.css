@@ -29,6 +29,7 @@
 .social-media__list {
     display: flex;
     list-style-type: none;
+    margin: 2rem 0 0;
 }
 
 .list__icon:not(:last-child) {
@@ -103,16 +104,62 @@
         display: flex;
     }
 
-    .links__container {
-        flex: 1 0;
-    }
-
     .bottom-item__link {
         font-size: 1.2rem;
     }
 
     .country__link, .bottom-links__copy {
         font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    .footer {
+        padding: 8rem 0 5rem;
+    }
+
+    .footer__nav {
+        width: 97rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .logo__link {
+        width: 13.2rem;
+        height: 4rem;
+    }
+
+    .nav__links {
+        width: 50%;
+    }
+
+    .nav__social-media {
+        margin: 0 1.5rem 0 auto;
+        height: 34.6rem;
+    }
+
+    .icon__link {
+        width: 5.4rem;
+        height: 5.4rem;
+    }
+
+    .nav__country {
+        width: 100%;
+    }
+
+    .nav__bottom-links {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .footer__nav {
+        width: 117rem;
+        height: 42.4rem;
     }
 
 }

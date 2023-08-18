@@ -66,7 +66,50 @@
     }
 
     .info__text {
-        width: 80%;
+        width: 83%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    .features {
+        width: 97rem;
+    }
+
+    .feature__image {
+        height: 10.4rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .features {
+        width: 117rem;
+    }
+
+    .features__list {
+        flex-wrap: nowrap;
+    }
+    
+    .list__feature {
+        flex-direction: column;
+        width: 27rem;
+    }
+
+    .feature__image {
+        width: 14.2rem;
+        height: 14.2rem;
+        margin: 0 auto 4rem;
+    }
+
+    .feature__info {
+        text-align: center;
+    }
+
+    .info__text {
+        margin: 0 auto;
     }
 
 }

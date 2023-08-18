@@ -26,7 +26,25 @@
 }
 
 @media screen and (min-width: 768px) {
+
     .modal {
         width: 75rem;
     }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    .modal {
+        width: 97rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .modal {
+        width: 117rem;
+    }
+
 }

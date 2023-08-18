@@ -69,3 +69,19 @@
     }
 
 }
+
+@media screen and (min-width: 992px) {
+    
+    .info__content {
+        font-size: 4.8rem;
+    }
+
+    .info__content:first-child {
+        padding-top: 19rem;
+    }
+
+    .info__content:last-child {
+        padding-bottom: 19rem;
+    }
+
+}
