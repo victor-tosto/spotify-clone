@@ -24,12 +24,12 @@ const Header = () => {
                     <a href="/" className="container__logo">
                         <Logo className="logo__image" />
                     </a>
-                    {isMobile && 
+                    {(isMobile && 
                     (<button onClick={handleToggle} className={isActive ? "container__menu active" : "container__menu"} aria-expanded={isActive ? "true" : "false"}>
                         <span className="menu__bar"></span>
                         <span className="menu__bar"></span>
                         <span className="menu__bar"></span>
-                    </button>) || <NavDesktop />}
+                    </button>)) || <NavDesktop />}
                 </div>
                 {isActive && <div className="overlay"></div>}
                 {isMobile && <NavMobile isActive={isActive} logo={<Logo className="logo__image--nav-mobile" />} />}
