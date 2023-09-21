@@ -40,7 +40,7 @@
 
 ## 📁 Acesso ao projeto
 
-<p>Para acessar o projeto é só <a href="">"Clicar aqui"</a></p>
+<p>Para acessar o projeto é só <a href="https://spotify-clone-opal.vercel.app/">"Clicar aqui"</a></p>
 
 ## 👨‍💻 Autor
 
